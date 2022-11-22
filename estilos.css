@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-escritorio-blanco-vector-diseno-moderno-minimalista_53876-140226.jpg?w=2000");
+	
+}
+
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	/* border: 1px solid red; */
+	max-width: 90%;
+	width: 900px;
+	margin: 80px auto;
+	margin-bottom: 1px;
+	display: flex;
+	
+}
+
+.main-header{
+	/* border: 1px solid blue; */
+	width: 80% auto;
+	margin: 80px auto;
+	max-width: 90%;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 5px;
+	
+}
+
+.main-header p{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	background: #fff;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 15px;
+	margin-top: 55px;
+}
+
+.formulario .btn {
+	width: 100%;
+	border: none;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 15px;
+	margin-top: 65px;
+}
+
+.formulario .btn:hover {
+	background: #4D5156;
+}
+
+.contenedorQR {
+	margin-left: 30px;
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
